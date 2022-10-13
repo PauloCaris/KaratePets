@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: petstoreApi.PetstoreTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.213 s <<< FAILURE! - in petstoreApi.PetstoreTest
+testParallel  Time elapsed: 3.208 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: karate.forEach(myResult,fun)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "id" from undefined
+- <js>.:=>(Unnamed:1)
+
+classpath:petstoreApi/feature/pets.feature:13 ==> expected: <0> but was: <1>
+	at petstoreApi.PetstoreTest.testParallel(PetstoreTest.java:15)
+
